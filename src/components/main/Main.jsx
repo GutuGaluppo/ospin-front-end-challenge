@@ -1,3 +1,4 @@
+/* eslint-disable spaced-comment */
 import React from 'react'
 import { Container } from 'semantic-ui-react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
@@ -16,11 +17,12 @@ const Main = () => (
 
       <Container fluid className='main-content'>
         <Switch>
-          <Route exact path='/devices' component={Devices} />
-          <Route exact path='/profile' component={Profile} />
-          <Route exact path='/notifications' component={Notifications} />
-          <Route exact path='/changelog' component={Changelog} />
-          <Route path='/' component={Devices} />
+          <Route exact path='/' component={Devices} />
+          {/*not sure if this should be modified to some Home page, so I just keep it as it is. */}
+          <Route path='/devices' component={Devices} />
+          <Route path='/profile' component={Profile} />
+          <Route path='/notifications' component={Notifications} />
+          <Route path='/changelog' component={Changelog} />
         </Switch>
       </Container>
 
