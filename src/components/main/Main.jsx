@@ -8,6 +8,7 @@ import Devices from 'components/devices/Devices'
 import Changelog from 'components/changelog/Changelog'
 import Profile from 'components/profile/Profile'
 import Notifications from 'components/notifications/Notifications'
+import ErrorPage from 'components/errorpage/ErrorPage'
 
 const Main = () => (
   <div>
@@ -23,6 +24,7 @@ const Main = () => (
           <Route path='/profile' component={Profile} />
           <Route path='/notifications' component={Notifications} />
           <Route path='/changelog' component={Changelog} />
+          <Route path='/error' component={ErrorPage} />
         </Switch>
       </Container>
 
