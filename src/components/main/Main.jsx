@@ -24,7 +24,7 @@ const Main = () => (
           <Route path='/profile' component={Profile} />
           <Route path='/notifications' component={Notifications} />
           <Route path='/changelog' component={Changelog} />
-          <Route path='/error' component={ErrorPage} />
+          <Route component={ErrorPage} />
         </Switch>
       </Container>
 
