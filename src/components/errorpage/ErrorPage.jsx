@@ -1,8 +1,13 @@
-/* eslint-disable no-tabs */
 import React from 'react'
+import { withRouter } from 'react-router-dom'
+import { Container, Image } from 'semantic-ui-react'
+import pageNotFound from 'images/404illustration.png'
 
-function ErrorPage() {
-  return <div>404, page not found</div>;
-}
+const ErrorPage = () => (
+  <Container className='error-container'>
+    <Image src={pageNotFound} fluid />
+    <h1>Sorry, Page Not Found</h1>
+  </Container>
+)
 
-export default ErrorPage;
+export default withRouter(ErrorPage)
