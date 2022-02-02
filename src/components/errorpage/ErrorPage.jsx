@@ -5,7 +5,7 @@ import pageNotFound from 'images/404illustration.png'
 
 const ErrorPage = () => (
   <Container className='error-container'>
-    <Image src={pageNotFound} fluid />
+    <Image src={pageNotFound} alt='404 error picture' fluid />
     <h1>Sorry, Page Not Found</h1>
   </Container>
 )

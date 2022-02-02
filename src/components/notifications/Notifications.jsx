@@ -7,7 +7,7 @@ import BioBoxFuturism from 'images/bio_box_futurism.jpg'
 const Notifications = () => (
   <Container>
     <Segment>
-      <Image src={BioBoxFuturism} size='large' centered style={{ padding: '20px' }} />
+      <Image src={BioBoxFuturism} alt='bio box futurism' size='large' centered style={{ padding: '20px' }} />
     </Segment>
   </Container>
 )

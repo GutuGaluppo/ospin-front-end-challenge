@@ -25,7 +25,7 @@ class OspinSidebar extends React.Component {
         <Sidebar as={Menu} visible vertical className='medium with-margin-r'>
 
           <Divider hidden />
-          <Image src={logoIcon} centered />
+          <Image src={logoIcon} alt='ospin logo' centered />
           <Divider hidden />
 
           <Menu.Item

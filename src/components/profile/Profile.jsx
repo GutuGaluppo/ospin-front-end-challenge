@@ -7,7 +7,7 @@ import theGiant from 'images/The_Giant.jpg'
 const Profile = () => (
   <Container>
     <Segment>
-      <Image src={theGiant} size='large' centered style={{ padding: '20px' }} />
+      <Image src={theGiant} alt='image of a giant in the clouds' size='large' centered style={{ padding: '20px' }} />
     </Segment>
   </Container>
 )
