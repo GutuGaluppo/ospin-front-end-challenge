@@ -294,3 +294,38 @@ body {
   cursor: pointer;
 }
 
+/* 404 page style */
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
+
+.error-container {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.error-container > h1 {
+	font-size: 3vw;
+	text-align: center;
+}
+.error-container > h1 {
+	font-family: "Libre Baskerville", serif;
+	background: url("images/space.jpeg") no-repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: transparent;
+	text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+	animation: spin 480s linear infinite;
+}
+@keyframes spin {
+	0% {
+		background-position: 0% 30%;
+	}
+	100% {
+		background-position: 100% 70%;
+	}
+}
