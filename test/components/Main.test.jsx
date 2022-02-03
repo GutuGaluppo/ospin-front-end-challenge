@@ -10,7 +10,7 @@ describe('Main.jsx', () => {
     render(
       <MemoryRouter>
         <Main dispatch={jest.fn()} />
-      </MemoryRouter>
+      </MemoryRouter>,
     )
   )
 
