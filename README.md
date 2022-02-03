@@ -106,3 +106,5 @@ FAIL  test/components/Main.test.jsx
       at Resolver.resolveModule (node_modules/jest-resolve/build/resolver.js:324:11)
       at Object.<anonymous> (node_modules/react-router/cjs/react-router.js:9:37)
 ```
+
+- About the error page picture, my intention was to create something with parallax effect, but I decided to keep it simple due to the profile of the company.
