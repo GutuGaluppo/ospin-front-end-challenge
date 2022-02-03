@@ -106,5 +106,3 @@ FAIL  test/components/Main.test.jsx
       at Resolver.resolveModule (node_modules/jest-resolve/build/resolver.js:324:11)
       at Object.<anonymous> (node_modules/react-router/cjs/react-router.js:9:37)
 ```
-
-- 
