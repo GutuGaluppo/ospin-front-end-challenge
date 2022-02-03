@@ -81,3 +81,30 @@ We would like to provide our users with an experience similar to these pages:
 > If your implementation involves additional setup to run, please let us know here.
 
 > Any and all feedback on the code challenge is greatly appreciated. Please let us know if it could be improved, if it was too long, if expectations weren't clear, etc.!
+
+<br/>
+
+## My humble feedback on this
+
+- Overall, it is an enjoyable challenge.
+
+- Involving some interesting "catches" to have in order to assess the candidates' attention to detail in this kind of task (for example: the hierarchy of routes)
+
+- Due to being involved in some other hiring processes, I was unable to spend more time testing the application, especially since the test present in the repository was not passing. I spent some time trying to debug but none of the solutions I found solved the problem.
+
+``` 
+FAIL  test/components/Main.test.jsx
+  ● Test suite failed to run
+
+    Cannot find module 'mini-create-react-context' from 'node_modules/react-router/cjs/react-router.js'
+
+    Require stack:
+      node_modules/react-router/cjs/react-router.js
+      node_modules/react-router/index.js
+      test/components/Main.test.jsx
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/resolver.js:324:11)
+      at Object.<anonymous> (node_modules/react-router/cjs/react-router.js:9:37)
+```
+
+- 
